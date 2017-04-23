@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_translate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/translate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_view_margin"
+            android:text="@string/cv_translate_text"
+            android:textSize="@dimen/translate_text_size"/>
+
+        <TextView
+            android:id="@+id/source_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/translate_tv"
+            android:layout_margin="@dimen/text_view_margin"
+            android:text="@string/cv_source_text"
+            android:textSize="@dimen/source_text_size"/>
+
+        <ToggleButton
+            android:id="@+id/add_remove_favorite"
+            android:layout_width="@dimen/toggle_button_size"
+            android:layout_height="@dimen/toggle_button_size"
+            android:layout_alignBaseline="@id/source_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/cv_toggle_selector"
+            android:textOff=""
+            android:textOn=""/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

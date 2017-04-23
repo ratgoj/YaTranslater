@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fern.yatranslater.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/screen_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/screen_navigation_tab_layout"
+        />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/screen_navigation_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        app:tabMode="fixed"
+        app:tabIndicatorHeight="4dp"
+        >
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_s_arrows_24dp"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_bookmark_24dp"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_item_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_settings_24dp"/>
+
+        </android.support.design.widget.TabLayout>
+
+</RelativeLayout>

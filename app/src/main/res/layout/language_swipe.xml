@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/from_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:layout_toLeftOf="@+id/toggle_language"
+        android:layout_margin="@dimen/actionbar_item_margin"
+        />
+
+    <ImageButton
+        android:id="@+id/toggle_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorTransparent"
+        android:contentDescription="@string/toggle_language_description"
+        android:src="@drawable/ic_horizontal_arrows_24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/into_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/russian"
+        android:layout_toRightOf="@+id/toggle_language"
+        android:layout_margin="@dimen/actionbar_item_margin"
+       />
+
+</RelativeLayout>

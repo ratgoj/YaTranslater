@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.fern.yatranslater.fragments.SettingsFragment">
+
+
+    <TextView
+        android:id="@+id/translate_language_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/translate_language_label_text"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/language_of_translation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translate_language_label"
+        android:layout_margin="@dimen/spinner_margin"/>
+
+    <TextView
+        android:id="@+id/native_language_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/native_language_label_text"
+        android:layout_below="@+id/language_of_translation"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/native_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/native_language_label"
+        android:layout_margin="@dimen/spinner_margin"/>
+
+    <TextView
+        android:id="@+id/demand_yandex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/yandex_demand"/>
+</RelativeLayout>

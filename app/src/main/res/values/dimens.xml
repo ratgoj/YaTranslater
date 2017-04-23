@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_item_margin">8dp</dimen>
+    <dimen name="text_input_margin">8dp</dimen>
+    <dimen name="text_view_margin">8dp</dimen>
+    <dimen name="translate_text_size">18sp</dimen>
+    <dimen name="source_text_size">14sp</dimen>
+    <dimen name="toggle_button_size">26dp</dimen>
+    <dimen name="toggle_end_margin">14dp</dimen>
+    <dimen name="spinner_margin">16dp</dimen>
+</resources>

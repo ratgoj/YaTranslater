@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">YaTranslater</string>
+    <string name="translate">Перевести</string>
+    <string name="settings">Настройки</string>
+    <string name="delete">Удалить</string>
+
+    <string name="native_language_label_text">Перевести на:</string>
+    <string name="translate_language_label_text">Перевести с:</string>
+
+    <string name="base_url">https://translate.yandex.net/</string>
+    <string name="api_key">trnsl.1.1.20170329T195731Z.6166f1968690bb06.ef2887454227890af8892c8e7c0dfba23eff7fa5</string>
+    <string name="yandex_demand">Переведено сервисом "Яндекс.Переводчик"\n<a href="http://translate.yandex.ru/">http://translate.yandex.ru/</a></string>
+
+    <!--Фрагменты-->
+    <string name="translate_title_fragment">Translate</string>
+    <string name="favorites_title_fragment">Favorites</string>
+    <string name="settings_title_fragment">Settings</string>
+    <string name="history_title_fragment">History</string>
+
+    <string name="toggle_language_description">переключить язык</string>
+
+    <!--Надписи и Подсказки-->
+    <string name="text_translate_hint">Введите текст для перевода</string>
+
+    <!--Закладки-->
+    <string name="tab_history">История</string>
+    <string name="tab_favorites">Избранное</string>
+
+    <!--Диалог showMessage-->
+    <string name="positive_button_name">Ok</string>
+    <string name="error_dialog_title">Код ошибки: %d</string>
+    <string name="common_error_dialog_message">Мы уже знаем о ошибке, попробуйтте черз некоторое время</string>
+    <string name="error_dialog_message_401">Неправильный API ключ.\nОбратитесь в техподдержку.</string>
+    <string name="error_dialog_message_402">API ключ заблокирован.\nОбратитесь в техподдержку.</string>
+    <string name="error_dialog_message_404">Превышено суточное ограничение на объем переведенного текста.</string>
+    <string name="error_dialog_message_413">Превышен максимально допустимый размер текста.</string>
+    <string name="error_dialog_message_422">Текст не может быть переведен.</string>
+    <string name="error_dialog_message_501">Заданное направление не поддерживаеться.</string>
+
+    <string name="failure_dialog_title">Отказ сети</string>
+    <string name="failure_dialog_message">К сожалению возникли неполадки с сетью.\nПожалуйста проверте соединение.</string>
+
+    <!--Диалог delete History-->
+    <string name="negative_button_name">Отмена</string>
+    <string name="delete_history_title_dialog">Удалить историю запросов.</string>
+    <string name="delete_history_question_dialog">Вы действительно хотите удалить историю переводов?\n\nВнимание!\nЭлементы что добавлены в "Избранное" можно удалять только построчно.</string>
+
+    <!--Диалог delete Favorite-->
+    <string name="favorite_dialog_delete_title">Очистить Избранное</string>
+    <string name="favorite_dialog_delete_question">Вы действительно хотите очистить Избранное?</string>
+
+
+    <!--Temp-->
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+
+    <string name="cv_translate_text">Перевод</string>
+    <string name="cv_source_text">Источник</string>
+</resources>
